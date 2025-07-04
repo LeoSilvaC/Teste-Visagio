@@ -1,0 +1,113 @@
+/*background:#5a189a;*/
+
+body{
+    background: #240046;
+    color: #fff;
+    font-size: 16px;
+}
+
+.container-principal-under{
+    display: flex;
+    background: #5a189a;
+    margin: 1rem;
+    height: 100vh;
+
+    border-radius: 16px;
+    box-shadow: -1px 0px 60px -15px rgba(255,255,255,0.53);
+    -webkit-box-shadow: -1px 0px 60px -15px rgba(255,255,255,0.53);
+    -moz-box-shadow: -1px 0px 60px -15px rgba(255,255,255,0.53);
+}
+
+.container-principal-over{
+    text-align: center;
+    width: 100%;
+    border-radius:16px;
+    height: 100vh;
+    background: #3c093c;
+}
+
+.perfil-usuario{
+    width: 260px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.img-perfil{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+}
+
+.nome{
+    color: #ffbbf9;
+    font-size: 20px;
+    padding-top: 1rem;
+}
+
+.nav-perfil{
+    display: flex;
+    margin-top: 1rem;
+    flex-direction: column;
+}
+.btn-nav{
+    background-color: #3c093c;
+    color: #fff;
+    margin-top: 10px;
+    padding: 1rem;
+    text-align: start;
+    border-radius: 24px;
+}
+
+.btn-nav:hover{
+    cursor: pointer;
+}
+
+.section{
+    display: none;
+}
+
+.section-dados{
+    background: rgba(255,187,249,0.3);
+    border-radius: 32px;
+    padding: 1.5rem;
+    margin: 3rem;
+    text-align: start;
+}
+
+.dados-pessoais{
+    margin-top: 1.5rem;
+    font-size: 20px;
+}
+
+.info{
+    background: #9d4edd;
+    padding: 1rem;
+    border-radius: 32px;
+    margin-top: .5rem;
+}
+
+.info input{
+    margin-left: 1rem;
+}
+
+.section-bio{
+    margin: 3rem;
+    text-align: start;
+
+}
+
+.bio-descricao{
+    font-size: 20px;
+    margin-top: 1.5rem;
+}
+
+.titulo{
+    text-align: start;
+    font-size: 32px;
+}
+
+.active{
+    display: block;
+}
